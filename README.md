@@ -1,11 +1,23 @@
 # Kiosk
 
+C# Windows Forms로 주문·결제 화면과 주문 수신 프로그램을 나눈 키오스크 구현 기록입니다.
+
+## 프로젝트 열기
+
+Visual Studio에서 [KIOSK.sln](Program/KIOSK/KIOSK.sln)을 엽니다. 솔루션에는 주문 화면인 `KIOSK`와 수신 프로그램인 `TakeProgram`이 포함되어 있습니다.
+
+- [KIOSK](Program/KIOSK/KIOSK): 주문·장바구니·결제 화면
+- [TakeProgram](Program/KIOSK/TakeProgram): 주문 수신과 DB 처리
+- [발표 자료](기업%20솔루션%20프로젝트.pptx)
+
+실행하려면 기존 MySQL 연결 설정과 주문·수신 프로그램의 통신 설정을 환경에 맞게 확인합니다. 아래 내용은 개발 당시 기능·화면 구성 기록입니다.
+
+
 ## 목록
 1. 개요
-2. 범위
-3. 설계
-4. 개발(OrderClient)
-5. 개발(TackClient)
+2. 설계
+3. 개발(OrderClient)
+4. 개발(TakeClient)
 
 ## 개요
 ### 프로젝트명
